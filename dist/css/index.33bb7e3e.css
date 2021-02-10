@@ -1,0 +1,28 @@
+.__imgExtend_wrap {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.__imgExtend_wrap .__imgExtend_canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+.__imgExtend_wrap .__imgExtend_inner {
+  position: relative;
+  z-index: 2;
+  flex: inherit;
+  flex-direction: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+  display: inherit;
+  justify-items: inherit;
+  align-content: inherit;
+  overflow: inherit;
+}
+*{padding:0;margin:0;box-sizing:border-box}body,html{height:100%;width:100%}.wrap{width:100vh;height:100vh;margin:0 auto;color:white;text-shadow:0 0 4px black;border-left:1px solid deeppink;border-top:1px solid deeppink;position:relative;background-image:linear-gradient(45deg, rgba(0,0,0,0.25) 25%, transparent 0, transparent 75%, rgba(0,0,0,0.25) 0),linear-gradient(45deg, rgba(0,0,0,0.25) 25%, transparent 0, transparent 75%, rgba(0,0,0,0.25) 0);background-size:24px 24px;background-position:0 0, 12px 12px}.wrap .flex{position:absolute;width:50%;height:50%}.wrap .flex.flex1{left:0;top:0}.wrap .flex.flex2{left:50%;top:0}.wrap .flex.flex3{left:0;top:50%}.wrap .flex.flex4{left:50%;top:50%;border-right:1px solid deeppink;border-bottom:1px solid deeppink;background-color:white;color:black;text-align:center;text-shadow:none;padding:40px 0 0}.wrap .flex.flex4>h1{padding-bottom:20px}.wrap .flex.flex4>div{padding-top:20px;font-size:16px}.wrap .flex.flex4>span{display:inline-block;font-size:12px;color:#888}.wrap .flex.flex4>span.tip{padding-top:10px;color:red}.wrap .flex.flex4 input,.wrap .flex.flex4 select{width:50%}.wrap .ie{display:inline-block;border-right:1px solid deeppink;border-bottom:1px solid deeppink;font-size:2vh}.wrap .ie .__imgExtend_inner{display:flex;align-items:center;justify-content:center;height:100%}.wrap .ie.ie1,.wrap .ie.ie2{width:100%;height:50%}.wrap .ie.ie3,.wrap .ie.ie4{width:50%;height:100%}.wrap .ie.ie5{height:100%;width:100%;overflow:auto}.wrap .ie .drag{width:50%;height:50%;display:flex;align-items:center;justify-content:center;resize:both;overflow:auto;border-right:1px solid deeppink;border-bottom:1px solid deeppink}
