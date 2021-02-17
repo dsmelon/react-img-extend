@@ -23,16 +23,16 @@
 
 **九宫格断点和填充类型说明**
 
-![](http://chuantu.xyz/t6/741/1612960811x1033348220.jpg)
+[s.jpg](https://postimg.cc/tn3N8hKY)
 
 使用方法
 ```jsx
 <ImgExtend
     withReverse={true}
-	rowRepeat="stretch"
-	direction="bottom"
-	imgSrc={src}
-	...其余配置
+    rowRepeat="stretch"
+    direction="bottom"
+    imgSrc={src}
+    ...其余配置
 >
     你内部的内容
 </ImgExtend>
