@@ -23,7 +23,7 @@
 
 **九宫格断点和填充类型说明**
 
-[s.jpg](https://postimg.cc/tn3N8hKY)
+![](https://i.postimg.cc/D0DpJ65d/s.jpg)
 
 使用方法
 ```jsx
